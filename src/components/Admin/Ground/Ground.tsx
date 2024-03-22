@@ -145,7 +145,7 @@ const Ground = () => {
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
             </tr>
-            <tr key={102} className="divide-y divide-gray-200 odd:bg-white even:bg-gray-100 animate-pulse">
+{/*             <tr key={102} className="divide-y divide-gray-200 odd:bg-white even:bg-gray-100 animate-pulse">
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
               <td className="px-6 py-4 text-center"> <div className="rounded-md bg-slate-200 h-16 w-18"></div></td>{" "}
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
@@ -162,7 +162,7 @@ const Ground = () => {
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
               <td className="px-6 py-4 text-center"> <div className="h-2 bg-slate-200 rounded col-span-2"></div></td>
-            </tr>
+            </tr> */}
           </>
           ) : (
             grounds?.map((item, index) => (
