@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@layer base {
+  :root {
+    --primary: rgb(70, 160, 82);
+    --primary2: #404E5C;
+    --primaryHover: rgba(5, 27, 52, 0.7);
+    --secondary: #009936;
+    --secondaryHover: rgba(0, 153, 54, 0.7);
+    --tertiary: rgb(231, 241, 253);
+    --primaryTitle: rgb(215, 232, 253);
+    --textClr: rgb(92, 92, 92);
+    --black: rgb(0, 0, 0);
+    --lato: "Lato", sans-serif;
+  }
+}
+
+.forPlaceholder::placeholder {
+  color: #ffffff;
+  /* Replace with the desired color code */
+}
+
+@layer utilities {
+
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+  }
+}
